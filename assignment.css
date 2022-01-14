@@ -1,0 +1,152 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    display: flex;
+    justify-content: left;
+}
+.background{
+    background-color: coral;
+    max-height: 50px;
+}
+.logo img{
+    width: 60px;
+}
+nav{
+    padding: 10px 0 10px 0;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    margin-left: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 30px 30px;
+}
+.menu>li{
+    position: relative;
+}
+.menu ul{
+    width: 150px;
+    padding: 0px;
+    margin: 10px -25px;
+    background-color:greenyellow;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 5px gray;
+    position: absolute;
+    display: none;
+}
+.menu>li:hover>ul{
+    display: block;
+}
+.menu ul>li>a{
+    display: block;
+    line-height: 5px;
+    border-bottom: 3px dotted lightblue;
+}
+.boxsearch{
+    display: flex;
+    align-items: left;
+    margin: 20px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: green;
+}
+.box-search_bt{
+    border-radius: 10px;
+    right: 200px;
+    top: 30px;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    border: none;
+}
+.box-search_input{
+    border-radius: 10px;
+    font-size: 15px;
+    height: 18px;
+}
+i:hover{
+    color: red;
+}
+.real > article{
+   background-image: url('./giay6.jpg');
+   width: 80%;
+   float: left;
+   min-height: 500px;
+}
+
+.real > aside{
+    width: 20%;
+    float: right;
+    min-height: 500px;
+    background-color: greenyellow;
+}
+.menu > ul{
+    color: blue;
+    margin-top: -30px;
+    margin-left: -20px;
+}
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: red;
+}
+li{
+    color:darkblue;
+}
+.product .heading{
+    font-size: 28px;
+    color: #24A19C;
+    text-align: center;
+    margin:  20px 0;
+}
+.product{
+    width: 100%;
+    display: inline-block;
+    background-color: pink;
+}
+.product .heading:after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    background-color: #24A19C;
+    top: 650px;
+    left: 42%;
+}
+.product-item{
+    width: 20%;
+    float: left;
+    margin: 70px;
+}
+.image{
+    width: 300px;
+}
+.product {
+    text-align: center;
+}
+.product .heading{
+    font-size: 28px;
+    color: #24A19C;
+    text-align: center;
+    margin:  20px 0;
+}
+.banner>img{
+    width: 100%;
+}
+.hr{
+    color: #24A19C;
+}
+
